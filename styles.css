@@ -1,7 +1,7 @@
 body{
     background-size: 50%;
     
-    background-image: url(/assets/geometric-gdd52219c3_1920.jpg);
+    background-image: url('assets/geometric-gdd52219c3_1920.jpg');
     opacity: 0.9;
     margin: 0;
 }
