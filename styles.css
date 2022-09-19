@@ -1,58 +1,78 @@
-body{
-    background-size: 50%;
-    
-    background-image: url('assets/geometric-gdd52219c3_1920.jpg');
-    opacity: 0.9;
-    margin: 0;
-}
-header{
-    margin-top: 5px;
-    height: 150px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-.icon{
-    margin-top: 20px;
-    position: relative;
-    left: 20px;
-    width: 200px;
-    height: 25px;
-}
+    body{
+        background-size: 50%;
+        
+        background-image: url('assets/geometric-gdd52219c3_1920.jpg');
+        opacity: 0.9;
+        margin: 0;
+    }
+    :root{
+        --sm: 14px;
+        --md: 16px;
+        --lg: 18px;
+        --titles-color: #5AE8DB;
+        --subtitles-color: aliceblue;
+    }
+    header{
+        margin-top: 5px;
+        height: 150px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .icon{
+        margin-top: 0;
+        position: relative;
+        left: 20px;
+        width: 150px;
+        /* height: 25px; */
+    }
 
-.barra{
-    width: 95%;
-    height: 120px;
-    margin-top: 2%;
-    background: #1a6bad;
-    border-radius: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-}
-.photo{
-    margin: 10px;
-    width: 110px;
-    height:110px;position: relative;
-    border-radius: 10%;
-    background: #bde3cc;
-}
+    .barra{
+        width: 95%;
+        height: 80px;
+        margin-top: 2%;
+        background: #1a6bad;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+    }
+    .photo{
+        margin: 10px;
+        width: 70px;
+        /* height:110px; */
+        /* position: relative; */
+        border-radius: 10%;
+        background: #bde3cc;
+    }
+    .menu-nav-list{
+        display: flex;
+        flex-direction: row;
+    }
+    .menu-nav-list li a{
+        text-decoration: none;
+        color: var(--titles-color);
+    }
+    .menu-nav-list li{
+        margin: 10px;
+        list-style: none;
+    }
     .container{
     display: flex;
     flex-direction: row;
     justify-content: center;
     }
     .title1{
-        color: aliceblue;
+        color: var(--titles-color);
         margin: 30px;   
         height: 100%;
         text-align: center;
         font-size: 50px;
     }
     .container-item{
-        color: aliceblue;
+        color: var(--subtitles-color);
         margin: 30px;
     }
     .container-title{
